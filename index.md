@@ -1,3 +1,3 @@
-# First, do no harm
+# Welcome to my learning lab.
 
-Hi! I am Dr Houda Kaddioui. Welcome to my lab.
+
