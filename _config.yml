@@ -1,9 +1,8 @@
-theme: minimal-mistakes-jekyll
-title: Learning lab
-author: Houda K
-description: > # this means to ignore newlines until "baseurl:"
-  This is mainly my lab notebook as I learn new machine learning and deep learning techniques to medical projects. 
-  Feel free to reach out to me if you have any comments or would like to chat.
+# theme: minimal-mistakes-jekyll
+# title: Learning lab
+# author: Houda K
+# description: > # this means to ignore newlines until "baseurl:"
+  
   
 # social links
 # twitter_username: sha3kouka # DO NOT include the @ character, or else the build will fail!
@@ -24,19 +23,20 @@ description: > # this means to ignore newlines until "baseurl:"
 # # Review documentation to determine if you should use `theme` or `remote_theme`
 # # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# # theme                  : "minimal-mistakes-jekyll"
-# # remote_theme           : "mmistakes/minimal-mistakes"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "contrast" # "default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# # Site Settings
-# locale                   : "en-US"
-# title                    : "Primum non nocere"
-# title_separator          : "|"
-# subtitle                 : # site tagline that appears below site title in masthead
-# name                     : "Houda Kaddioui"
+ # Site Settings
+locale                   : "en-US"
+title                    : "Learning lab"
+title_separator          : "|"
+subtitle                 : "This is mainly my lab notebook as I learn new machine learning and deep learning techniques to medical projects. 
+  Feel free to reach out to me if you have any comments or would like to chat." # site tagline that appears below site title in masthead
+name                     : "Houda Kaddioui"
 # description              : 
-# url                      : "https://theaioath.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-# baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://theaioath.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/lab"# the subpath of your site, e.g. "/blog"
 # repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -156,9 +156,9 @@ minimal_mistakes_skin    : "contrast" # "default"  "air", "aqua", "contrast", "d
 
 
 # # Reading Files
-# include:
-#   - .htaccess
-#   - _pages
+include:
+- .htaccess
+- _posts
 # include: ["_pages"]
 # exclude:
 #   - "*.sublime-project"
